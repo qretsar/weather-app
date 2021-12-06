@@ -1,0 +1,80 @@
+.citySelection {
+  padding-top: 5rem;
+  margin: auto;
+  /* margin-top: 10vh; */
+  background: #033d6d6b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 50vh;
+  max-width: 100vh;
+  max-height: 750vh;
+  border: 0.2rem solid rgb(251, 251, 251);
+}
+.more-info {
+  transform: translateZ(-100%);
+  transition: all 0.5s ease;
+  opacity: 0;
+  color: white;
+  background: rgb(0, 204, 255);
+}
+.active {
+  /* padding-top: 1rem; */
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+  align-items: center;
+  /* margin-top: 2rem; */
+  transform: translateZ(0%);
+  transition: all 0.5s ease;
+  opacity: 1;
+  color: white;
+  padding: 1rem 2rem 2rem 1rem;
+  gap: 1rem;
+  margin: 2rem;
+  background: rgba(0, 204, 255, 0.746);
+}
+.input {
+  display: flex;
+  color: white;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.308);
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  border-radius: 2px;
+  outline: none;
+  height: 2rem;
+  width: 100%;
+  font-size: 1rem;
+  /* margin: 0 0 8px 0; */
+  padding: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-transition: border 0.3s, -webkit-box-shadow 0.3s;
+  transition: border 0.3s, -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s, border 0.3s;
+  transition: box-shadow 0.3s, border 0.3s, -webkit-box-shadow 0.3s;
+}
+.form {
+  display: flex;
+  padding-bottom: 1rem;
+}
+.form > button {
+  background-color: rgba(0, 204, 255, 0.746);
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  width: 8rem;
+}
+.form > button:hover {
+  background-color: lightblue;
+  transform: scale(1.1);
+  cursor: pointer;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  width: 8rem;
+}
